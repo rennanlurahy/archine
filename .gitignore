@@ -1,0 +1,18 @@
+# Local env files
+.env*
+!.env.example
+
+# Jest
+coverage/**/*
+
+# Typescript
+*.tsbuildinfo
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Others
+node_modules
+dist/
