@@ -1,8 +1,12 @@
 {
   "name": "archine",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/main/entry-points/cli/index.js",
+  "bin": {
+    "archine": "./dist/main/entry-points/cli/index.js"
+  },
   "scripts": {
+    "build": "tsc",
     "format": "prettier .",
     "format:write": "prettier . --write",
     "lint": "eslint .",
